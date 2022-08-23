@@ -17,3 +17,13 @@
 .nav-link:hover{
   color: wheat!important;
 }
+
+
+.ingredient{
+  text-align: center;
+  margin: 5px;
+}
+
+.ingredient img{
+  width: 80%;
+}
