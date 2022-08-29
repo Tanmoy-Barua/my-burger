@@ -1,5 +1,6 @@
 .navbar-bg-color{
-  background-color: #d70f64;
+  background-color: #d70f64!important;
+  color: #fff!important;
 }
 
 .navbar-brand{
@@ -18,7 +19,7 @@
   color: wheat!important;
 }
 
-
+/* Ingredient */
 .ingredient{
   text-align: center;
   margin: 5px;
@@ -26,4 +27,27 @@
 
 .ingredient img{
   width: 80%;
+}
+
+
+
+/* Burger */
+.Burger {
+  width: 100%;
+  margin: auto;
+  height: 350px;
+  /* overflow-y: scroll; */
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.Burger::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.Burger {
+-ms-overflow-style: none;  /* IE and Edge */
+scrollbar-width: none;  /* Firefox */
 }
