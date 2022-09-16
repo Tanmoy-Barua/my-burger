@@ -33,7 +33,7 @@ const Controls = (props) => {
             </div>
             <div className="card-footer">
               <h5>Price: {props.price} BDT</h5>
-              <button type="button" className="btn navbar-bg-color" data-bs-toggle="modal" data-bs-target="#summaryModal" disabled={!props.purchaseable}>
+              <button type="button" className="btn navbar-bg-color" data-bs-toggle="modal" data-bs-target="#priceModal" onClick={props.clicks} disabled={!props.purchaseable}>
                   Place Order
               </button>
             </div>
