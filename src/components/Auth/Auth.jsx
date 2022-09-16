@@ -125,11 +125,11 @@ const Auth = (props) => {
                     <span className="text-danger">{errors.email}</span>
                     </div>
                     <div className="my-2">
-                    <input type="text" className="form-control my-2" name="password" placeholder="Enter Your Password" value={values.password} onChange={handleChange} />
+                    <input type="password" className="form-control my-2" name="password" placeholder="Enter Your Password" value={values.password} onChange={handleChange} />
                     <span className="text-danger">{errors.password}</span>
                     </div>
                     {mode === 'Sign Up' ? (<div className="my-2">
-                    <input type="text" className="form-control my-2" name="cPassword" placeholder="Enter Your Confirm Password" value={values.cPassword} onChange={handleChange} />
+                    <input type="password" className="form-control my-2" name="cPassword" placeholder="Enter Your Confirm Password" value={values.cPassword} onChange={handleChange} />
                     <span className="text-danger">{errors.cPassword}</span>
                     </div>) : null}
                     
